@@ -62,6 +62,6 @@ def runner
   # code runner here
   welcome()
   sum = initial_round()
-  sum += hit?(sum)
+  while sum
 end
     
