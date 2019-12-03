@@ -62,6 +62,7 @@ def runner
   # code runner here
   welcome()
   sum = initial_round()
-  while sum
+  while sum < 21
+    hit?(sum)
 end
     
