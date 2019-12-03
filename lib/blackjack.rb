@@ -30,6 +30,8 @@ end
 
 def initial_round
   # code #initial_round here
+  sum = deal_card() + deal_card()
+  display_card_total(sum)
   return deal_card() + deal_card()
 end
 
@@ -40,6 +42,7 @@ end
 
 def invalid_command
   # code invalid_command here
+  puts 
 end
 
 #####################################################
