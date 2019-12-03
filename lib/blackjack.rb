@@ -65,5 +65,6 @@ def runner
   while sum < 21 do
     sum = hit?(sum)
   end
+end_game(sum)
 end
     
