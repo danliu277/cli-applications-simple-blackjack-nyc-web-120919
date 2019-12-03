@@ -35,7 +35,7 @@ def initial_round
   return deal_card() + deal_card()
 end
 
-def hit?
+def hit?(total)
   # code hit? here
   prompt_user()
   input = get_user_input()
